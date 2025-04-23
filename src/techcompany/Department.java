@@ -7,8 +7,8 @@ package techcompany;
 
 /**
  *
- * @author laure
+ * @author laure  
  */
 public class Department {
-    
+     
 }
