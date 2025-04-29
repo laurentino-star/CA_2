@@ -1,14 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package techcompany;
+package techcompany; // Package name
 
-/**
- *
- * @author laure 
- */
-public class Manager {
-    
+// Abstract class Manager (cannot be directly instantiated)
+public abstract class Manager {
+    protected String title; // Title of the manager (e.g., Head Manager, Assistant Manager)
+
+    // Constructor to set the title when a Manager object is created
+    public Manager(String title) {
+        this.title = title;
+    }
+
+    // Getter method to retrieve the title of the manager
+    public String getTitle() {
+        return title;
+    }
 }
