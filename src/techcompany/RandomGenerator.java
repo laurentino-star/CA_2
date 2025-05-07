@@ -6,8 +6,9 @@ public class RandomGenerator {
 
     // Predefined names used for random employee generation
     private static final String[] names = {
-        "Lucas", "Amelia", "Marcus", "Olivia", "Julian", "Sophia", "Sebastian", "Emily",
-        "Leo", "Charlotte", "Nathan", "Isabella", "Gabriel", "Lily", "Xavier", "Mia"
+        "Lucas", "Amelia", "Marcus", "Olivia", "Julian", "Sophia", 
+        "Sebastian", "Emily", "Leo", "Charlotte", "Nathan", "Isabella", 
+        "Gabriel", "Lily", "Xavier", "Mia"
     };
 
     // Random object to help with generating random values
@@ -15,46 +16,40 @@ public class RandomGenerator {
 
     // Method to generate a list of random employees
     public static List<Employee> generateEmployees(int count) {
-        List<Employee> generated = new ArrayList<>(); // Stores generated employees
+        List<Employee> generated = new ArrayList<>(); // List to store generated employees
 
+        // Loop to create the specified number of employees
         for (int i = 0; i < count; i++) {
-            // Choose a random name and add a number suffix for uniqueness
+            // Select a random name from the list and append a unique number for distinction
             String name = names[random.nextInt(names.length)] + "_" + (i + 1);
 
-            // Randomly assign a manager type
+            // Initialize the Manager variable
             Manager manager;
+            
+            // Randomly select a type of manager: HeadManager, AssistantManager, or TeamLead
             int m = random.nextInt(3);
             switch (m) {
-                case 0:
-                    manager = new HeadManager();
-                    break;
-                case 1:
-                    manager = new AssistantManager();
-                    break;
-                default:
-                    manager = new TeamLead();
-                    break;
+                case 0 -> manager = new HeadManager();       // 0 -> HeadManager
+                case 1 -> manager = new AssistantManager();  // 1 -> AssistantManager
+                default -> manager = new TeamLead();         // 2 -> TeamLead
             }
 
-            // Randomly assign a department
+            // Initialize the Department variable
             Department dept;
+
+            // Randomly select a type of department: TechnicalSupport, CustomerService, or HR
             int d = random.nextInt(3);
             switch (d) {
-                case 0:
-                    dept = new TechnicalSupport();
-                    break;
-                case 1:
-                    dept = new CustomerService();
-                    break;
-                default:
-                    dept = new HR();
-                    break;
+                case 0 -> dept = new TechnicalSupport();     // 0 -> TechnicalSupport
+                case 1 -> dept = new CustomerService();      // 1 -> CustomerService
+                default -> dept = new HR();                  // 2 -> HR
             }
 
-            // Create and add the new employee to the list
+            // Create a new Employee with the generated name, manager, and department
             generated.add(new Employee(name, manager, dept));
         }
 
-        return generated; // Return the list of generated employees
+        // Return the list of generated employees
+        return generated;
     }
 }
