@@ -1,0 +1,82 @@
+Name,              Department,          Position,  Job title,         Company 
+Claudia Augustus, Software Engineering, Mid-Level, Backend Developer, TechNova Inc.
+
+Decimus Marius, Data Analytics, Junior, Data Analyst, NexaSoft
+
+Tullia Valerius, Cybersecurity, Senior, IT Security Specialist, ByteWorks
+
+Marcus Sergius, AI Research, Mid-Level, NLP Engineer, CodeCrafters
+
+Julia Cornelius, DevOps, Senior, Site Reliability Engineer, InfiniCore
+
+Quintus Lucius, UX/UI Design, Lead, Product Designer, Aether Systems
+
+Aurelia Maximus, Software Engineering, Junior, Full-Stack Developer, TechNova Inc.
+
+Tiberius Antonius, Cloud Computing, Mid-Level, Cloud Solutions Architect, NexaSoft
+
+Lucia Domitius, Cybersecurity, Lead, Penetration Tester, ByteWorks
+
+Octavius Marcellus, DevOps, Junior, Systems Administrator, CodeCrafters
+
+Livia Tullius, Software Engineering, Intern, Mobile App Developer, InfiniCore
+
+Gnaeus Pompeius, Data Analytics, Lead, Data Scientist, TechNova Inc.
+
+Marcus Appius, Cloud Computing, Senior, DevOps Engineer, Aether Systems
+
+Sabina Agrippa, UX/UI Design, Mid-Level, UX Designer, NexaSoft
+
+Flavius Metellus, AI Research, Lead, Data Engineer, ByteWorks
+
+Tiberius Claudia, Software Engineering, Senior, Software Architect, CodeCrafters
+
+Aulus Verres, Cybersecurity, Mid-Level, Network Administrator, InfiniCore
+
+Julia Flavius, Data Analytics, Mid-Level, Business Intelligence Analyst, TechNova Inc.
+
+Valerius Gracchus, DevOps, Lead, Cloud Administrator, NexaSoft
+
+Octavia Claudia, UX/UI Design, Junior, Graphic Designer, Aether Systems
+
+Manius Ahenobarbus, Software Engineering, Intern, Frontend Developer, ByteWorks
+
+Aelia Sertorius, AI Research, Senior, Data Scientist, CodeCrafters
+
+Quintus Cicero, Cybersecurity, Lead, Cloud Security Engineer, InfiniCore
+
+Claudia Poplicola, Cloud Computing, Mid-Level, Virtualization Engineer, TechNova Inc.
+
+Julius Maximus, Data Analytics, Junior, Data Engineer, NexaSoft
+
+Tullius Varro, Software Engineering, Lead, Application Architect, ByteWorks
+
+Livia Marcellus, UX/UI Design, Senior, User Experience Architect, CodeCrafters
+
+Tiberius Sertorius, DevOps, Mid-Level, Cloud Operations Engineer, InfiniCore
+
+Octavius Tullius, Cybersecurity, Junior, IT Auditor, TechNova Inc.
+
+Sabina Metellus, Data Analytics, Lead, Predictive Analyst, NexaSoft
+
+Flavius Agrippa, Cloud Computing, Senior, Infrastructure Engineer, ByteWorks
+
+Valeria Pompeius, AI Research, Junior, Research Analyst, CodeCrafters
+
+Claudia Rufus, DevOps, Intern, Platform Engineer, InfiniCore
+
+Gnaeus Marcellus, UX/UI Design, Mid-Level, Web Designer, TechNova Inc.
+
+Tullia Agrippa, Software Engineering, Mid-Level, Mobile Developer, Aether Systems
+
+Marcus Verres, Data Analytics, Senior, Data Engineer, ByteWorks
+
+Aurelia Appius, Cybersecurity, Lead, Security Architect, CodeCrafters
+
+Quintus Marcellus, Software Engineering, Junior, Software Tester, InfiniCore
+
+Octavia Cicero, Cloud Computing, Senior, Cloud Platform Engineer, TechNova Inc.
+
+Livia Gracchus, Data Analytics, Mid-Level, Data Visualization Specialist, NexaSoftCarlos silva, HR, Senior, Engineer, CCT
+Carlos da silva, HR, Senior, Engineer, CCT
+Jane Smith, Finance, Senior, Project Manager, InnovateX
