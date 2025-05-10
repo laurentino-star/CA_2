@@ -29,4 +29,4 @@ To run this project, you need:
 
 ```bash
 $ git clone https://github.com/laurentino-star/CA_2.git
-$ cd TechCompany
+
